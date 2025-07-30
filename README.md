@@ -1,2 +1,18 @@
-# ihs-towers-mvp
-🗼 AI-powered telecom tower management platform built with Python, .NET Core, and Azure. Features ML-driven revenue prediction, performance optimization, and real-time analytics for telecom infrastructure operations.
+## 🚀 Quick Start
+
+### Prerequisites
+- Visual Studio 2022
+- Python 3.11+
+- .NET 8 SDK
+- SQL Server
+
+### Run Locally
+```bash
+# Python API
+cd backend-python
+pip install -r requirements.txt
+python src/main.py  # http://localhost:8000
+
+# .NET API  
+cd backend-dotnet
+dotnet run --project TowerManagement.Api  # https://localhost:7XXX
